@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SubActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigate"
+        android:orderInCategory="800"
+        android:title="Next"
+        app:showAsAction="always"
+        android:icon="@drawable/car"/>
+
+    <item
+        android:id="@+id/thirdItem"
+        android:orderInCategory="100"
+        android:title="Refresh Deals"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/feedBack"
+        android:orderInCategory="100"
+        android:title="Help Us Improve"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/submitDeal"
+        android:orderInCategory="100"
+        android:title="Submit A Deal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/deleteDatabase"
+        android:orderInCategory="100"
+        android:title="Remove Old Deals"
+        app:showAsAction="never" />
+
+</menu>
